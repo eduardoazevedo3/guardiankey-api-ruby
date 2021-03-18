@@ -32,7 +32,7 @@ class GuardianKey
       'clientReverse' => '',
       'userName' => username,
       'authMethod' => '',
-      'loginFailed' => login_failed,
+      'loginFailed' => login_failed ? '1' : '0',
       'userAgent' => user_agent,
       'psychometricTyped' => '',
       'psychometricImage' => '',
